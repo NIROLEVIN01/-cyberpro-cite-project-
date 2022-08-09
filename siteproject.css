@@ -218,6 +218,14 @@ a:active{
   color: black;
 }
 
+#footericons a {
+  text-decoration: none;
+}
+
+#footericons {
+  margin-top: 2vh;
+}
+
 .flip-card-front1 {
   position: absolute;
   width: 100%;
