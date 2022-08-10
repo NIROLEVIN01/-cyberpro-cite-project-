@@ -24,7 +24,8 @@ a:active{
   align-items: center;
   font-size: x-large;
   position: fixed;
-  background-color: rgb(69, 146, 172) ;
+  background: linear-gradient(#235477,#6097BF);
+  /* background-color: rgb(69, 146, 172) ; */
   z-index: 100;
 }
 
@@ -137,7 +138,8 @@ a:active{
 }
 
 #homepage {
-  background-color: rgb(69, 146, 172);
+  /* background-color: rgb(69, 146, 172); */
+  background:linear-gradient(#235477,#6097BF);
   display: flex;
   align-items: center;
   height: 100vh;
@@ -212,9 +214,13 @@ a:active{
   -webkit-backface-visibility: hidden; 
   backface-visibility: hidden;
 }
+
+.flip-card-back {
+  background: linear-gradient(gray, white);
+}
   
 .flip-card-front {
-  background-color: rgb(69, 146, 172);
+  background: linear-gradient(#235477,#6097BF);
   color: black;
 }
 
@@ -224,6 +230,7 @@ a:active{
 
 #footericons {
   margin-top: 2vh;
+  margin-left: 2.5vw;
 }
 
 .flip-card-front1 {
@@ -268,7 +275,8 @@ a:active{
 
 #graysection {
   color: white;
-  background-color: gray;
+  background: linear-gradient(gray,white);
+  /* background-color: gray; */
   text-align: center;
   margin:0%;
   padding: 5vh;
