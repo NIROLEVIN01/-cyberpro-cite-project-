@@ -1,8 +1,8 @@
 * {
-    margin:0%;
-    padding: 0%;
-    border: 0vh;
-    box-sizing: border-box;
+  margin:0%;
+  padding: 0%;
+  border: 0vh;
+  box-sizing: border-box;
 }
 
 a:link{
@@ -138,7 +138,6 @@ a:active{
 }
 
 #homepage {
-  /* background-color: rgb(69, 146, 172); */
   background:linear-gradient(#235477,#6097BF);
   display: flex;
   align-items: center;
@@ -429,21 +428,16 @@ footer {
   left: 50px;
   margin: 0%;
   padding: 0%;
-  
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
   visibility: visible;
-
-
 }
 
 #menuToggle a
 {
   text-decoration: none;
   color: #232323;
-  
   transition: color 0.3s ease;
 }
 
@@ -451,7 +445,6 @@ footer {
 {
   color: tomato;
 }
-
 
 #menuToggle input
 {
@@ -461,12 +454,9 @@ footer {
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
   opacity: 0; 
   z-index: 2; 
-  
   -webkit-touch-callout: none;
 }
 
@@ -477,26 +467,20 @@ footer {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #cdcdcd;
   border-radius: 3px;
-  
   z-index: 1;
-  
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child{
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2){
   transform-origin: 0% 100%;
 }
 
@@ -506,8 +490,7 @@ footer {
   background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3){
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -522,26 +505,20 @@ footer {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li{
   padding: 10px 0;
   font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul
-{
-  
+#menuToggle input:checked ~ ul{
   transform: none;
 }
  
